@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Te amo</title>
+    <link rel="shortcut icon" href="heart.svg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Stack+Sans+Text:wght@200..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <p class="juntos">Juntos para sempre💖</p>
+        <div class="player1">
+            <img src="momorzin.jpg" alt="nossafoto" class="album-cover">
+        </div>
+        <div class="song-info">
+            <h2>Color Your Night</h2>
+            <p>Lotus Juice, Azumi Takahashi</p>
+        </div>
+
+        <div class="player">
+            <input type="range" id="progressSlider" value="0" min="0" max="100" step="0.1">
+
+            <audio id="musica" src="Color Your Night [j9Sn1nFGQQ8].mp3"></audio>
+            <div class="controls">
+                <button id="rewindBtn">
+                    <img src="6398909 - Copy.png" alt="Rewind">
+                </button>
+
+                <div class="playbtn">
+                    <button id="playPauseBtn">
+                        <img id="playIcon" src="play-button.png" alt="Play">
+                        <img id="pauseIcon" src="pause-button.png" alt="Pause">
+                    </button>
+                </div>
+
+                <button id="nextBtn">
+                    <img src="6398909.png" alt="Next">
+                </button>
+            </div>
+
+        </div>
+        
+        <div class="sobre">
+            <h3 class="casal">Sobre o casal</h3>
+            <img src="amoxinho.jpg" alt="bottom">
+            <h4 class="lm">Letizia & Marcelo</h4>
+            <p>Estamos juntos há:</p>
+            <div class="contador-container">
+                <div class="contador-bloco">
+                    <div class="linha">
+                      <div class="tempo"><span>1</span><p>Anos</p></div>
+                      <div class="tempo"><span>2</span><p>Meses</p></div>
+                      <div class="tempo"><span>3</span><p>Dias</p></div>
+                    </div>
+                  
+                    <div class="segunda-linha">
+                      <div class="tempo"><span>4</span><p>Horas</p></div>
+                      <div class="tempo"><span>5</span><p>Minutos</p></div>
+                      <div class="tempo"><span>6</span><p>Segundos</p></div>
+                    </div>
+                  </div>                  
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
