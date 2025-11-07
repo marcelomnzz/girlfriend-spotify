@@ -231,7 +231,7 @@ body {
     body {
       height: 210vh;
       justify-content: flex-start;
-      padding: 0 27px;
+      padding: 0 24px;
       background: linear-gradient(to bottom, #7a0404 0%, #000000 100%);
     }
   }
@@ -259,4 +259,5 @@ body {
   .contador-container{
     display: flex;
     width: 350px;
+
   }
